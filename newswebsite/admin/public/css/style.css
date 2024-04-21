@@ -1,0 +1,314 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+.header
+{
+    width: 100%;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+    height:100px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    
+    
+    
+    
+
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo
+{
+   
+    margin: 0 5%;
+}
+
+.logo img{
+    width: 90px;
+}
+
+.menu
+{
+    margin: 0 4%;
+}
+
+.menu ul{
+    list-style: none;
+    text-align: right;
+    width: 100%;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+    
+
+
+.menu ul li a 
+{
+    color: #13eacadc;
+    font-family: Batusa;
+    text-decoration: none;
+    
+    
+}
+
+.sidebar-main
+{
+    display: flex;
+}
+
+.aside
+{
+    height: 100%;
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+    
+    top: 100px;
+    position: fixed;
+    width: 20%;
+
+    
+    
+    
+    
+    
+}
+
+
+
+.aside ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 3% 0 3% 0;
+    
+    
+    
+    box-sizing: border-box;
+    border-radius: 7px;
+    
+    
+    
+}
+.aside ul li a{
+    text-decoration: none;
+}
+
+.user-profile
+{
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.image-box img
+{
+    border-radius: 200px;
+}
+
+
+#txt-sidebar
+{
+    margin-bottom: 15px;
+    font-family: Batusa;
+    text-align: left;
+    font-size: 18px;
+    width: auto;
+    
+    margin-left: 30px;
+    
+}
+
+
+
+
+.name-box h3
+{
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.aside ul li:hover{
+    background: rgba(2, 33, 87, 0.925);
+    
+    
+    
+}
+
+.aside ul li a 
+{
+    
+    font-weight: medium bold;
+    font-family: Work Sans;
+    font-size: 15px;
+    height: 40px;
+    display: block;
+    text-align: left;
+    margin-left: 40px;
+    padding-top: 10px;
+    color: rgba(3, 25, 66, 0.908);
+}
+
+.aside ul li:hover a{
+    
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+.main
+{
+    left:20%;
+    padding: 2% 2%;
+    width: 80%;
+    top:100px;
+    flex-grow: 1;
+    position: absolute;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.form-group
+{
+    
+    padding: 0.7rem 10px;
+    
+    font-size:14px;
+    
+}
+
+.form-group label
+{
+    font-family: Raleway;
+    font-weight: 500;
+}
+
+
+
+
+
+.form-css
+{
+    height: 40px;
+    width: 100%;
+    font-family: Raleway;
+    font-weight: 500;
+    
+    
+}
+
+textarea
+{
+    resize: none;
+}
+
+
+
+.form-css input
+{
+    padding: 40% 40%;
+}
+
+input[type=file]::file-selector-button {
+    font-weight: bold;
+    color: dodgerblue;
+    padding: 0.5em;
+    border: thin solid grey;
+    border-radius: 3px;
+  }
+
+#btn-add
+{
+    height: 50px;
+    width: 115px;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    font-family: Raleway;
+    font-weight: 500;
+    padding: 5px 5px;
+}
+
+.show-table{
+    border: 0.5px solid black;
+    width: 100%;
+    
+}
+
+.show-table th
+{
+    padding: 3px 3px;
+    border: 0.5px solid white;
+    background-color: rgb(164, 160, 101);
+    color: white;
+    font-family: Raleway;
+    font-weight: 500;
+}
+
+.show-table td
+{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    border: 0.5px solid black;
+    font-family: Raleway;
+    font-weight: 500;
+    
+}
+
+
+
+
+.btn-edit{
+    /* margin-bottom: 4px; */
+    height: 36px;
+    width:60px;
+    font-family: Raleway;
+    font-weight: 500;
+    background-color: rgb(120, 179, 184);
+    color: white;
+    border:0;
+    border-radius: 3px;
+}
+
+.btn-delete{
+    height: 36px;
+    width: 60px;
+    font-family: Raleway;
+    font-weight: 500;
+    background-color: rgb(255, 92, 92);
+    color: white;
+    border:0;
+    border-radius: 3px;
+}
+    
+
+
+
+
